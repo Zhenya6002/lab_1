@@ -1,0 +1,158 @@
+* {
+    font-family: Calibri;
+}
+
+body {
+    background: #ededed;
+    color: black;
+}
+
+.menu a {
+    color: #2F4F4F;
+    font-size: 16pt;
+    line-height: 75px;
+    text-decoration: none;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.menu a:hover {
+    background: #a1a1a1;
+    color: #fff;
+}
+
+.logo_img {
+    margin-right: 5px;
+}
+
+.descript_headers {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.descript_headers:first-letter {
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.descript_short_text {
+    color: #292929;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.descript_detail_text {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.catalog_img {
+    width: 200px;
+	border: 3px solid #4f5a61;
+    border-radius: 8%;
+}
+
+.descript_img {
+    width: 400px;
+    border: 3px solid #4f5a61;
+    border-radius: 8%;
+}
+
+.descript_img:hover {
+    border: 3px solid #b7bfc4;
+}
+
+figure {
+    float: left;
+    margin: 0 10px 0 0;
+    text-align: center;
+}
+
+label {
+    padding: 6px 0 4px 10px;
+}
+
+#name,
+#email,
+#phone,
+#theme,
+#area {
+    width: 200px;
+    font-size: 14px;
+    padding: 6px 0 4px 10px;
+    border: 2px solid #cecece;
+    background: #f5f5f5;
+    border-radius: 15px;
+    color: #3b3b3b;
+    outline: none;
+    text-transform: capitalize;
+}
+
+#area {
+    width: 300px;
+    font-size: 16px;
+}
+
+#send {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 2px solid #cecece;
+    background: #f5f5f5;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#email:focus {
+    background-color: #3b3b3b;
+    color: white;
+}
+
+.descript_table {
+    border-collapse: collapse;
+    line-height: 1.1;
+    color: #333333;
+}
+
+.descript_table th {
+    text-align: left;
+    font-size: 17px;
+    padding: 4px 10px;
+    border: 2px solid #4f5a61;
+}
+
+.descript_table td {
+    text-align: left;
+    font-size: 15px;
+    padding: 4px 10px;
+    border: 2px solid #4f5a61;
+}
+
+.index_table {
+    border-collapse: collapse;
+    line-height: 1;
+    color: #333333;
+}
+
+.index_table th {
+    color: #666666;
+    text-align: center;
+    font-size: 18px;
+    border: 3px solid #4f5a61;
+    font-family: cursive;
+    -webkit-transform: rotate(90deg);
+}
+
+.index_table td {
+    color: #666666;
+    text-align: center;
+    font-size: 18px;
+    padding: 25px 18px;
+    border: 3px solid #4f5a61;
+    font-family: cursive;
+}
